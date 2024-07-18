@@ -6,14 +6,18 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from '../screens/login/login';
 import Register from '../screens/register/register';
 import Register2 from '../screens/register2/register2';
+import Home from '../screens/home/home';
 
 const Stack = createNativeStackNavigator();
 function Routes(){
     return <>
-        <NavigationContainer>
+        <NavigationContainer >
             {/* executa por padrão  primeira rota */}
-            <Stack.Navigator >
+            <Stack.Navigator initialRouteName=''>
+                <Stack.Screen name='home' component={Home} options={{headerShown:false}}/>
+
                 <Stack.Screen name='login' component={Login} options={{headerShown:false}}/>
+
                 <Stack.Screen name='registro' component={Register} options={{
                     // headerShown:false,
                     headerShadowVisible:false,
@@ -21,7 +25,8 @@ function Routes(){
                     //somente funciona para o IOS
                     headerBackTitle:"voltar"
                     
-                    }}/>
+                }}/>
+
                 <Stack.Screen name='registro2' component={Register2}options={{
                     // headerShown:false,
                     headerShadowVisible:false,
@@ -29,7 +34,8 @@ function Routes(){
                     //somente funciona para o IOS
                     headerBackTitle:"voltar"
                     
-                    }}/>
+                }}/>
+                
             </Stack.Navigator>
 
 

@@ -1,6 +1,6 @@
 ###
-Começar AULA 4 
-    https://www.youtube.com/watch?v=y58dOP9OKZI
+AULA 4 ia começar a criar componentes para categorias
+    https://www.youtube.com/live/h9gRNFCWb2g?si=vIMiQwWtPbc0fX45&t=1615
 ###
 
 
