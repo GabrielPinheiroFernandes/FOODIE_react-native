@@ -7,6 +7,7 @@ import Login from '../screens/login/login';
 import Register from '../screens/register/register';
 import Register2 from '../screens/register2/register2';
 import Home from '../screens/home/home';
+import Favoritos from '../screens/favoritos/favoritos';
 
 const Stack = createNativeStackNavigator();
 function Routes(){
@@ -14,6 +15,13 @@ function Routes(){
         <NavigationContainer >
             {/* executa por padrão  primeira rota */}
             <Stack.Navigator initialRouteName=''>
+                <Stack.Screen name='favoritos' component={Favoritos} options={{
+                    headerShown:true,
+                    title:"Favoritos",
+                    headerTitleAlign:"center",
+                    headerShadowVisible:false
+                    }}/>
+
                 <Stack.Screen name='home' component={Home} options={{headerShown:false}}/>
 
                 <Stack.Screen name='login' component={Login} options={{headerShown:false}}/>
