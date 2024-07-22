@@ -1,5 +1,5 @@
 ###
-AULA 6 ultima até o mo
+AULA 6 ultima até o momento
     https://www.youtube.com/watch?v=iRlfHPZnW8k
 ###
 
