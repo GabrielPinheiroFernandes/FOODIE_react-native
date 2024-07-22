@@ -8,13 +8,31 @@ import Register from '../screens/register/register';
 import Register2 from '../screens/register2/register2';
 import Home from '../screens/home/home';
 import Favoritos from '../screens/favoritos/favoritos';
+import Pedidos from '../screens/pedidos/pedidos';
+import Perfil from '../screens/perfil/perfil';
 
 const Stack = createNativeStackNavigator();
 function Routes(){
     return <>
         <NavigationContainer >
             {/* executa por padrão  primeira rota */}
+            
             <Stack.Navigator initialRouteName=''>
+
+                <Stack.Screen name='perfil' component={Perfil} options={{
+                    headerShown:true,
+                    title:"Meu Perfil",
+                    headerTitleAlign:"center",
+                    headerShadowVisible:false
+                    }}/>
+
+                <Stack.Screen name='pedidos' component={Pedidos} options={{
+                    headerShown:true,
+                    title:"Meus Pedidos",
+                    headerTitleAlign:"center",
+                    headerShadowVisible:false
+                    }} />
+
                 <Stack.Screen name='favoritos' component={Favoritos} options={{
                     headerShown:true,
                     title:"Favoritos",
