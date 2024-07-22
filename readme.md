@@ -1,6 +1,6 @@
 ###
-AULA 4 ia começar a criar componentes para categorias
-    https://www.youtube.com/live/h9gRNFCWb2g?si=vIMiQwWtPbc0fX45&t=1615
+AULA 6 ultima até o mo
+    https://www.youtube.com/watch?v=iRlfHPZnW8k
 ###
 
 
@@ -13,11 +13,11 @@ dependencias
 
 ##
 react Navigation
-##
+
 ````
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
 npm install @react-navigation/native-stack
 
 ````
-
+##
