@@ -12,10 +12,10 @@ dependencias
 ###
 
 ##
-react Navigation
+  react Navigation
 
 ##
-stack and dependencias 
+    stack and dependencias 
 ##
 ````
 npm install @react-navigation/native
@@ -24,7 +24,7 @@ npm install @react-navigation/native-stack
 
 ````
 ##
-bottom tabs
+    bottom tabs
 ````
 npm install @react-navigation/bottom-tabs
 ````
