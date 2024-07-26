@@ -12,19 +12,28 @@ dependencias
 ###
 
 ##
-  react Navigation
+react Navigation
 
 ##
-    stack and dependencias 
+dependencias globais com o expo
 ##
 ````
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack
+
 
 ````
+
 ##
-    bottom tabs
+native stack
+````
+npm install @react-navigation/native-stack
+````
+##
+
+
+##
+bottom tabs
 ````
 npm install @react-navigation/bottom-tabs
 ````
