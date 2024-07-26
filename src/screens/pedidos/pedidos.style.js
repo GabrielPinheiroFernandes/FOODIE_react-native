@@ -1,21 +1,21 @@
-const COLORS = {
-    red: "#ED5359",
-    dark_gray: "#5D6275",
-    medium_gray: "#A6ABBC",
-    gray:"#E5ECFC",
-    light_gray:"#F4F7FE",
-    white:"#FFFFFF",
-    green:"#38C682"
-}
+import { COLORS, FONT_SIZE } from "../../constants/theme"
 
-const FONT_SIZE = {
-    xsm : 11,
-    sm: 14,
-    md: 16
-    ,
-    lg: 22,
-    xl: 32,
-    xxl: 64
+export const styles = {
+    container: {
+        flex: 1,
+        backgroundColor: COLORS.white,
+    },
+    containerList: {
+        flexGrow: 1
+    },
+    empty: {
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        paddingBottom: 80
+    },
+    emptyText: {
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.dark_gray
+    }
 }
-
-export {COLORS,FONT_SIZE};

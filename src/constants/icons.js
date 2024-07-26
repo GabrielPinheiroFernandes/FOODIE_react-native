@@ -9,4 +9,11 @@ import more from "../assets/expandir.png"
 import dados from "../assets/meus-dados.png"
 import logout  from "../assets/logout.png"
 
-export default {back,remove,Logo,cart,favoritoFull,empty,address,more,dados,logout};
+import abahome from "../assets/aba-home.png"
+import abafavoritos from "../assets/aba-favorito.png"
+import abapedido from "../assets/aba-pedidos.png"
+import abaperfil from "../assets/aba-perfil.png"
+
+export default {
+    back,remove,Logo,cart,favoritoFull,empty,address,more,dados,logout,
+    abahome,abafavoritos,abapedido,abaperfil,};

@@ -2,7 +2,7 @@ import { FlatList, Image, Text, View } from "react-native";
 import Pedido from "../../components/pedido/pedido";
 import icons from "../../constants/icons"
 import { pedidos } from "../../constants/dados";
-import { styles } from "../../components/pedido/pedido.style";
+import { styles } from "../../screens/pedidos/pedidos.style"
 
 
 function Pedidos (){
@@ -10,6 +10,7 @@ function Pedidos (){
     vazio=[];
     return <>
         <FlatList 
+        style={styles.container}
         data={pedidos}
         // data={vazio}
         keyExtractor={(pedidos)=>pedidos.id}
