@@ -1,6 +1,6 @@
 ###
-AULA 6 ultima até o momento
-    https://www.youtube.com/watch?v=iRlfHPZnW8k
+AULA 7 ultima até o momento
+    https://www.youtube.com/watch?v=Dtulfw1cakY
 ###
 
 
